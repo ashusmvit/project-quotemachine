@@ -6,8 +6,8 @@ body{background-color: gray;
 .container{
   background-color: #00FFFF;
   margin:10% auto auto auto;
-position: relative;
-display: table;
+  position: relative;
+  display: table;
   width: auto;
   padding: 40px 50px;/*used for width of the box*/
   text-align:left;
@@ -20,7 +20,7 @@ display: table;
    font-size:1em;
 }
 .abc{
-  i{
+    i{
         font-size:1.0em;
         margin-right: 0.4em;
       }
