@@ -1,0 +1,2 @@
+var a=["I try to create sympathy for my characters, then turn the monsters loose." , "Prose is architecture, not interior decoration.","It’s none of their business that you have to learn to write. Let them think you were born that way.","To produce a mighty book, you must choose a mighty theme.","It is perfectly okay to write garbage—as long as you edit brilliantly."];
+var b=["Stephen King","Ernest Hemingway","Ernest Hemingway","Herman Melville","C. J. Cherryh"];
