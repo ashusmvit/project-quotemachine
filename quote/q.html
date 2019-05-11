@@ -9,33 +9,30 @@
   <script>$(document).ready(function(){
     $("#but").on("click" , function(){
       var d=Math.floor(Math.random()* 5);
-     {$(".abc").html(a[d]);
-     $(".bcde").html("-"+b[d]);
-        var z=a[d]+"by"+b[d];
-      }
-$("#bu").attr("href", "https://twitter.com/intent/tweet?text="+z).attr("target", "_blank");
-    });
-  });
-
-
-</script>
-
+      {$(".abc").html(a[d]);
+       $(".bcde").html("-"+b[d]);
+            var z=a[d]+"by"+b[d];
+       }
+    $("#bu").attr("href", "https://twitter.com/intent/tweet?text="+z).attr("target", "_blank");
+                                    });
+                                      });
+  </script>
 </head>
-<body>
-  <div class="container">
-    <div class="abc">
-  <i class="fa fa-quote-left" aria-hidden="true"></i> Click to access qoute...
-  </div>
-  <div class="bcde" id="a">
--writer
-  </div>
-  <br>
-  <div>
-    <div class="row">
-<div class="col-xs-6"><a id="bu" class="ad btn-primary" type="button" title="Tweet this" href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></div>
-<div class="col-xs-6"><button id="but" class="ae btn-primary" type="button"  style="float:right">New Quote!</button></div>
-  </div>
-</div>
-</div>
-</body>
+  <body>
+    <div class="container">
+      <div class="abc">
+        <i class="fa fa-quote-left" aria-hidden="true"></i> Click to access qoute...
+      </div>
+      <div class="bcde" id="a">
+        -writer
+      </div>
+      <br>
+      <div>
+        <div class="row">
+          <div class="col-xs-6"><a id="bu" class="ad btn-primary" type="button" title="Tweet this" href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></div>
+          <div class="col-xs-6"><button id="but" class="ae btn-primary" type="button"  style="float:right">New Quote!</button></div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
